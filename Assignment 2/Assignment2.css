@@ -1,0 +1,47 @@
+.SignInBox {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Add margin or padding to create separation between email and password */
+.SignInBox input {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.container {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
+    text-align: center;
+}
+
+#Continue,
+#Create {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#Continue {
+    background-color: rgb(255, 196, 0);
+}
+
+#pass {margin-left: 80px;}
